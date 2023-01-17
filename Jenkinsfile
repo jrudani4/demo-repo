@@ -1,6 +1,6 @@
 pipeline{
     agent{
-        label "Windows"
+        any
     }
     options{
         buildDiscarder logRotator(artifactDaysToKeepStr:'',artifactNumToKeepStr:'5',daysToKeepStr:'',numToKeepStr:'5')
